@@ -1,1 +1,1 @@
-FROM tomcat:9.0.70-jdk8-corretto
+FROM tomcat:9.0.70-jdk8-corretto@sha256:59be9f8bd6c395f6c9a5911e50294c384f1eddac404bd29c7c1b400a5158ce81
