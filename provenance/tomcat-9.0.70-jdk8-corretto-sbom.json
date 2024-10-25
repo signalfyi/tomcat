@@ -1,0 +1,2931 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "version": 1,
+  "metadata": {
+    "tools": [
+      {
+        "name": "trivy",
+        "vendor": "aquasecurity",
+        "version": "unknown"
+      }
+    ],
+    "component": {
+      "name": "tomcat",
+      "purl": "pkg:oci/tomcat@9.0.70-jdk8-corretto?digest=sha256:93d42e4f4a441739bea9361d59917263d65d4d9b3c0e946b4ccd3ce939812f9c",
+      "type": "library",
+      "bom-ref": "pkg:oci/tomcat@9.0.70-jdk8-corretto?digest=sha256:93d42e4f4a441739bea9361d59917263d65d4d9b3c0e946b4ccd3ce939812f9c",
+      "version": "9.0.70-jdk8-corretto"
+    },
+    "timestamp": "2024-10-25T14:45:37.957355+00:00"
+  },
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "a755fd77-b814-4683-8792-1a4b8fd80e90",
+      "type": "library",
+      "bom-ref": "BomRef.30946367052295254.02760943004582339",
+      "version": "unknown"
+    },
+    {
+      "name": "amazon",
+      "type": "library",
+      "bom-ref": "BomRef.8399106387427246.4180728000575009",
+      "version": "2 (Karoo)"
+    },
+    {
+      "name": "amazon-linux-extras",
+      "type": "library",
+      "bom-ref": "BomRef.20643214907440088.36819443648477046",
+      "version": "2.0.1-1.amzn2"
+    },
+    {
+      "name": "apr",
+      "type": "library",
+      "bom-ref": "BomRef.8680557289608898.7232302801993081",
+      "version": "1.7.0-9.amzn2"
+    },
+    {
+      "name": "basesystem",
+      "type": "library",
+      "bom-ref": "BomRef.019100072902193288.14448464078716206",
+      "version": "10.0-7.amzn2.0.1"
+    },
+    {
+      "name": "bash",
+      "type": "library",
+      "bom-ref": "BomRef.8551583191139996.4220329720893766",
+      "version": "4.2.46-34.amzn2"
+    },
+    {
+      "name": "bzip2-libs",
+      "type": "library",
+      "bom-ref": "BomRef.23334827313984396.13355726047805083",
+      "version": "1.0.6-13.amzn2.0.3"
+    },
+    {
+      "name": "ca-certificates",
+      "type": "library",
+      "bom-ref": "BomRef.6360765960101871.10578788117297344",
+      "version": "2021.2.50-72.amzn2.0.3"
+    },
+    {
+      "name": "chkconfig",
+      "type": "library",
+      "bom-ref": "BomRef.0553631859898428.826795715536907",
+      "version": "1.7.4-1.amzn2.0.2"
+    },
+    {
+      "name": "commons-daemon",
+      "type": "library",
+      "bom-ref": "BomRef.8398588368771167.00188125087201374",
+      "version": "1.3.3"
+    },
+    {
+      "name": "coreutils",
+      "type": "library",
+      "bom-ref": "BomRef.8711376137969038.1905156126814903",
+      "version": "8.22-24.amzn2"
+    },
+    {
+      "name": "cpio",
+      "type": "library",
+      "bom-ref": "BomRef.12122745143872826.5704123638227068",
+      "version": "2.11-28.amzn2"
+    },
+    {
+      "name": "curl",
+      "type": "library",
+      "bom-ref": "BomRef.8372541713481432.3010002097198635",
+      "version": "7.79.1-7.amzn2.0.1"
+    },
+    {
+      "name": "cyrus-sasl-lib",
+      "type": "library",
+      "bom-ref": "BomRef.6831879365318835.3133854669746331",
+      "version": "2.1.26-24.amzn2"
+    },
+    {
+      "name": "dejavu-fonts-common",
+      "type": "library",
+      "bom-ref": "BomRef.17204571428870985.005213909605656486",
+      "version": "2.33-6.amzn2"
+    },
+    {
+      "name": "dejavu-sans-fonts",
+      "type": "library",
+      "bom-ref": "BomRef.5957094816612973.328887324012493",
+      "version": "2.33-6.amzn2"
+    },
+    {
+      "name": "diffutils",
+      "type": "library",
+      "bom-ref": "BomRef.25896008158746897.27713337175278274",
+      "version": "3.3-5.amzn2"
+    },
+    {
+      "name": "elfutils-libelf",
+      "type": "library",
+      "bom-ref": "BomRef.4501948366391584.5536286826592773",
+      "version": "0.176-2.amzn2"
+    },
+    {
+      "name": "expat",
+      "type": "library",
+      "bom-ref": "BomRef.2297288004977187.011638078836994525",
+      "version": "2.1.0-15.amzn2.0.2"
+    },
+    {
+      "name": "file-libs",
+      "type": "library",
+      "bom-ref": "BomRef.6050594429395804.10677568222559153",
+      "version": "5.11-36.amzn2.0.1"
+    },
+    {
+      "name": "filesystem",
+      "type": "library",
+      "bom-ref": "BomRef.5731986545200007.8361601374113433",
+      "version": "3.2-25.amzn2.0.4"
+    },
+    {
+      "name": "findutils",
+      "type": "library",
+      "bom-ref": "BomRef.21221089000338111.45945856789372597",
+      "version": "1:4.5.11-6.amzn2"
+    },
+    {
+      "name": "fontconfig",
+      "type": "library",
+      "bom-ref": "BomRef.7457442498776237.2695058793042856",
+      "version": "2.13.0-4.3.amzn2"
+    },
+    {
+      "name": "fontpackages-filesystem",
+      "type": "library",
+      "bom-ref": "BomRef.4963944758988509.7435678629787129",
+      "version": "1.44-8.amzn2"
+    },
+    {
+      "name": "freetype",
+      "type": "library",
+      "bom-ref": "BomRef.05614685166863864.3429273032385687",
+      "version": "2.8-14.amzn2.1"
+    },
+    {
+      "name": "gawk",
+      "type": "library",
+      "bom-ref": "BomRef.7977787253546748.623723087881145",
+      "version": "4.0.2-4.amzn2.1.2"
+    },
+    {
+      "name": "gdbm",
+      "type": "library",
+      "bom-ref": "BomRef.0973989164914344.7625724660764486",
+      "version": "1:1.13-6.amzn2.0.2"
+    },
+    {
+      "name": "glib2",
+      "type": "library",
+      "bom-ref": "BomRef.31995074088823594.3543207264583197",
+      "version": "2.56.1-9.amzn2.0.2"
+    },
+    {
+      "name": "glibc",
+      "type": "library",
+      "bom-ref": "BomRef.0057894610906981114.40930714371655486",
+      "version": "2.26-62.amzn2"
+    },
+    {
+      "name": "glibc-common",
+      "type": "library",
+      "bom-ref": "BomRef.12879186193871384.20114842477460837",
+      "version": "2.26-62.amzn2"
+    },
+    {
+      "name": "glibc-langpack-en",
+      "type": "library",
+      "bom-ref": "BomRef.5447858052625008.6775303527232805",
+      "version": "2.26-62.amzn2"
+    },
+    {
+      "name": "glibc-minimal-langpack",
+      "type": "library",
+      "bom-ref": "BomRef.7747847652569814.4723722919718075",
+      "version": "2.26-62.amzn2"
+    },
+    {
+      "name": "gmp",
+      "type": "library",
+      "bom-ref": "BomRef.4635000853616974.20529371515205141",
+      "version": "1:6.0.0-15.amzn2.0.2"
+    },
+    {
+      "name": "gnupg2",
+      "type": "library",
+      "bom-ref": "BomRef.5333102505687118.1952115131574782",
+      "version": "2.0.22-5.amzn2.0.5"
+    },
+    {
+      "name": "gpg-pubkey",
+      "type": "library",
+      "bom-ref": "BomRef.4646383907830097.04282038861634707",
+      "version": "b04f24e3-5de94a19"
+    },
+    {
+      "name": "gpg-pubkey",
+      "type": "library",
+      "bom-ref": "BomRef.3443451595149205.6142144213193045",
+      "version": "c87f5b1a-593863f8"
+    },
+    {
+      "name": "gpgme",
+      "type": "library",
+      "bom-ref": "BomRef.9191658402591578.3535891242370698",
+      "version": "1.3.2-5.amzn2.0.2"
+    },
+    {
+      "name": "grep",
+      "type": "library",
+      "bom-ref": "BomRef.6605524828420142.8053706404162866",
+      "version": "2.20-3.amzn2.0.2"
+    },
+    {
+      "name": "info",
+      "type": "library",
+      "bom-ref": "BomRef.28384737292848106.853076136371394",
+      "version": "5.1-5.amzn2"
+    },
+    {
+      "name": "java-1.8.0-amazon-corretto-devel",
+      "type": "library",
+      "bom-ref": "BomRef.32896266783739236.13011537298467135",
+      "version": "1:1.8.0_352.b08-1"
+    },
+    {
+      "name": "keyutils-libs",
+      "type": "library",
+      "bom-ref": "BomRef.03253784878580912.15586108634515994",
+      "version": "1.5.8-3.amzn2.0.2"
+    },
+    {
+      "name": "krb5-libs",
+      "type": "library",
+      "bom-ref": "BomRef.007090810874850306.9307699769676155",
+      "version": "1.15.1-37.amzn2.2.4"
+    },
+    {
+      "name": "libacl",
+      "type": "library",
+      "bom-ref": "BomRef.7727559676569278.7443872054326701",
+      "version": "2.2.51-14.amzn2"
+    },
+    {
+      "name": "libassuan",
+      "type": "library",
+      "bom-ref": "BomRef.05517490035849604.30578658650945534",
+      "version": "2.1.0-3.amzn2.0.2"
+    },
+    {
+      "name": "libattr",
+      "type": "library",
+      "bom-ref": "BomRef.22916835268908853.7420813213696899",
+      "version": "2.4.46-12.amzn2.0.2"
+    },
+    {
+      "name": "libblkid",
+      "type": "library",
+      "bom-ref": "BomRef.6842439331149384.1739976967333614",
+      "version": "2.30.2-2.amzn2.0.10"
+    },
+    {
+      "name": "libcap",
+      "type": "library",
+      "bom-ref": "BomRef.4520125678589998.48486317161705594",
+      "version": "2.54-1.amzn2.0.1"
+    },
+    {
+      "name": "libcom_err",
+      "type": "library",
+      "bom-ref": "BomRef.4415206145689513.7033109965871623",
+      "version": "1.42.9-19.amzn2.0.1"
+    },
+    {
+      "name": "libcrypt",
+      "type": "library",
+      "bom-ref": "BomRef.6862864587148013.6226022370688303",
+      "version": "2.26-62.amzn2"
+    },
+    {
+      "name": "libcurl",
+      "type": "library",
+      "bom-ref": "BomRef.5407861117238569.3253233481632073",
+      "version": "7.79.1-7.amzn2.0.1"
+    },
+    {
+      "name": "libdb",
+      "type": "library",
+      "bom-ref": "BomRef.7652045180396125.8347036382796853",
+      "version": "5.3.21-24.amzn2.0.3"
+    },
+    {
+      "name": "libdb-utils",
+      "type": "library",
+      "bom-ref": "BomRef.07537674198087196.42935345775202827",
+      "version": "5.3.21-24.amzn2.0.3"
+    },
+    {
+      "name": "libffi",
+      "type": "library",
+      "bom-ref": "BomRef.3053593213166248.06597274153640664",
+      "version": "3.0.13-18.amzn2.0.2"
+    },
+    {
+      "name": "libgcc",
+      "type": "library",
+      "bom-ref": "BomRef.41031484698381626.548682988931126",
+      "version": "7.3.1-15.amzn2"
+    },
+    {
+      "name": "libgcrypt",
+      "type": "library",
+      "bom-ref": "BomRef.5575568065911736.5445536148956273",
+      "version": "1.5.3-14.amzn2.0.3"
+    },
+    {
+      "name": "libgpg-error",
+      "type": "library",
+      "bom-ref": "BomRef.21110438419226285.989870874788607",
+      "version": "1.12-3.amzn2.0.3"
+    },
+    {
+      "name": "libidn2",
+      "type": "library",
+      "bom-ref": "BomRef.9600078337653356.6037594503343746",
+      "version": "2.3.0-1.amzn2"
+    },
+    {
+      "name": "libmetalink",
+      "type": "library",
+      "bom-ref": "BomRef.057526697095876655.8981799091828114",
+      "version": "0.1.3-13.amzn2"
+    },
+    {
+      "name": "libmount",
+      "type": "library",
+      "bom-ref": "BomRef.867021386650678.9468759202270249",
+      "version": "2.30.2-2.amzn2.0.10"
+    },
+    {
+      "name": "libnghttp2",
+      "type": "library",
+      "bom-ref": "BomRef.7636773990349821.7263282931032452",
+      "version": "1.41.0-1.amzn2"
+    },
+    {
+      "name": "libpng",
+      "type": "library",
+      "bom-ref": "BomRef.4423821870079808.36389524289353803",
+      "version": "2:1.5.13-8.amzn2"
+    },
+    {
+      "name": "libselinux",
+      "type": "library",
+      "bom-ref": "BomRef.949894418653304.7034218230929886",
+      "version": "2.5-12.amzn2.0.2"
+    },
+    {
+      "name": "libsepol",
+      "type": "library",
+      "bom-ref": "BomRef.08358375279109198.9219639523048153",
+      "version": "2.5-8.1.amzn2.0.2"
+    },
+    {
+      "name": "libssh2",
+      "type": "library",
+      "bom-ref": "BomRef.5085811171523488.5698360096608948",
+      "version": "1.4.3-12.amzn2.2.3"
+    },
+    {
+      "name": "libstdc++",
+      "type": "library",
+      "bom-ref": "BomRef.7692037241196361.0258601716596476",
+      "version": "7.3.1-15.amzn2"
+    },
+    {
+      "name": "libtasn1",
+      "type": "library",
+      "bom-ref": "BomRef.26931792517573105.44872668096928015",
+      "version": "4.10-1.amzn2.0.2"
+    },
+    {
+      "name": "libunistring",
+      "type": "library",
+      "bom-ref": "BomRef.2885806802853962.9600410090427293",
+      "version": "0.9.3-9.amzn2.0.2"
+    },
+    {
+      "name": "libuuid",
+      "type": "library",
+      "bom-ref": "BomRef.31546725446419777.5245521031716506",
+      "version": "2.30.2-2.amzn2.0.10"
+    },
+    {
+      "name": "libverto",
+      "type": "library",
+      "bom-ref": "BomRef.9406504798500243.46208087051597724",
+      "version": "0.2.5-4.amzn2.0.2"
+    },
+    {
+      "name": "libxml2",
+      "type": "library",
+      "bom-ref": "BomRef.24252978911608436.5522610427890884",
+      "version": "2.9.1-6.amzn2.5.6"
+    },
+    {
+      "name": "lua",
+      "type": "library",
+      "bom-ref": "BomRef.726034571745371.050808204377906785",
+      "version": "5.1.4-15.amzn2.0.2"
+    },
+    {
+      "name": "ncurses",
+      "type": "library",
+      "bom-ref": "BomRef.4734438347046075.22316846451785832",
+      "version": "6.0-8.20170212.amzn2.1.4"
+    },
+    {
+      "name": "ncurses-base",
+      "type": "library",
+      "bom-ref": "BomRef.756696931558389.393727719389529",
+      "version": "6.0-8.20170212.amzn2.1.4"
+    },
+    {
+      "name": "ncurses-libs",
+      "type": "library",
+      "bom-ref": "BomRef.49663027783432145.215786819976145e-06",
+      "version": "6.0-8.20170212.amzn2.1.4"
+    },
+    {
+      "name": "nspr",
+      "type": "library",
+      "bom-ref": "BomRef.960086345924749.15335544814673907",
+      "version": "4.34.0-3.1.amzn2"
+    },
+    {
+      "name": "nss",
+      "type": "library",
+      "bom-ref": "BomRef.050747766728676424.9819300826757815",
+      "version": "3.79.0-4.amzn2"
+    },
+    {
+      "name": "nss-pem",
+      "type": "library",
+      "bom-ref": "BomRef.11478180105400493.5925131008248826",
+      "version": "1.0.3-5.amzn2"
+    },
+    {
+      "name": "nss-softokn",
+      "type": "library",
+      "bom-ref": "BomRef.423634258759239.8995607042404552",
+      "version": "3.79.0-4.amzn2"
+    },
+    {
+      "name": "nss-softokn-freebl",
+      "type": "library",
+      "bom-ref": "BomRef.9461658039504953.3635294219030508",
+      "version": "3.79.0-4.amzn2"
+    },
+    {
+      "name": "nss-sysinit",
+      "type": "library",
+      "bom-ref": "BomRef.45781540763385464.025529950687360636",
+      "version": "3.79.0-4.amzn2"
+    },
+    {
+      "name": "nss-tools",
+      "type": "library",
+      "bom-ref": "BomRef.3269815700973092.19297522028853498",
+      "version": "3.79.0-4.amzn2"
+    },
+    {
+      "name": "nss-util",
+      "type": "library",
+      "bom-ref": "BomRef.10798221003246944.2688625470461048",
+      "version": "3.79.0-1.amzn2"
+    },
+    {
+      "name": "openldap",
+      "type": "library",
+      "bom-ref": "BomRef.7528425834323262.529567613641813",
+      "version": "2.4.44-23.amzn2.0.4"
+    },
+    {
+      "name": "openssl-libs",
+      "type": "library",
+      "bom-ref": "BomRef.27110601654508115.6160976423435727",
+      "version": "1:1.0.2k-24.amzn2.0.4"
+    },
+    {
+      "name": "openssl11-libs",
+      "type": "library",
+      "bom-ref": "BomRef.06843698633003226.7192699749672967",
+      "version": "1:1.1.1g-12.amzn2.0.9"
+    },
+    {
+      "name": "openssl11-pkcs11",
+      "type": "library",
+      "bom-ref": "BomRef.4197572966190446.175389807292056",
+      "version": "0.4.10-6.amzn2.0.1"
+    },
+    {
+      "name": "p11-kit",
+      "type": "library",
+      "bom-ref": "BomRef.8306770805596349.7360372222942451",
+      "version": "0.23.22-1.amzn2.0.1"
+    },
+    {
+      "name": "p11-kit-trust",
+      "type": "library",
+      "bom-ref": "BomRef.9565611636276463.38067369079363433",
+      "version": "0.23.22-1.amzn2.0.1"
+    },
+    {
+      "name": "pcre",
+      "type": "library",
+      "bom-ref": "BomRef.6835352795026761.6314945016700372",
+      "version": "8.32-17.amzn2.0.2"
+    },
+    {
+      "name": "pinentry",
+      "type": "library",
+      "bom-ref": "BomRef.918191772683259.47900358905386775",
+      "version": "0.8.1-17.amzn2.0.2"
+    },
+    {
+      "name": "pkg:maven/commons-daemon/commons-daemon@1.3.3",
+      "type": "library",
+      "bom-ref": "BomRef.0064604635974634395.06653055748436365",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.taglibs/taglibs-standard-impl@1.2.5",
+      "type": "library",
+      "bom-ref": "BomRef.9769356597543143.2602624730193116",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.taglibs/taglibs-standard-spec@1.2.5",
+      "type": "library",
+      "bom-ref": "BomRef.5752437655127464.28176362682669565",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.592766067579767.04970944049285542",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-api@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.12246011290967318.8013247094811019",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-catalina-ant@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.36768617415062166.5499990761820776",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-catalina-ha@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.940101924095534.16489705217338413",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-catalina@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.07923615569880726.1440763797673268",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.25751717444711675.252517774923417",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-dbcp@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.8719960629590019.2163349116654969",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-el-api@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.9227973122682941.8673430978014977",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-cs@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.8422605661700804.9342824659463884",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-de@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.08129372281348579.17381704983640334",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-es@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.6260204512983508.18265031118254316",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-fr@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.40248682787291445.20093332441837297",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-ja@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.031702709853110855.8101680823179861",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-ko@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.8812855523505254.2246098137183612",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-pt-BR@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.7939284195954944.8375966130372394",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-ru@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.7127007738937206.47375029533348745",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-i18n-zh-CN@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.6491388059070706.28451260169559967",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-jasper-el@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.7277296053269163.6871705189365442",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-jasper@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.8079546009879496.6408074453950856",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-jaspic-api@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.6210457822101929.1032126977924156",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.4876668422477395.7956397619256425",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-jni@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.17562616515481744.9346449312137302",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.22865767177929286.7860902701752694",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.2075983517889397.06783329015171058",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.644730643662713.06726859122772988",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-ssi@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.548969440330007.35912065341177946",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-storeconfig@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.6073536875435952.2697016078721227",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-tribes@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.9611557992933568.6635893340649525",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-util-scan@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.047785014405909654.1848229213960605",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-util@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.07953611261445892.6483484646182526",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-websocket-api@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.8005947302694686.2981262910831164",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:maven/org.apache.tomcat/tomcat-websocket@9.0.70",
+      "type": "library",
+      "bom-ref": "BomRef.22538648509626513.40855961724862266",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:oci/tomcat@sha256%3A93d42e4f4a441739bea9361d59917263d65d4d9b3c0e946b4ccd3ce939812f9c?arch=amd64&repository_url=index.docker.io%2Flibrary%2Ftomcat",
+      "type": "library",
+      "bom-ref": "BomRef.9822366602802647.4083278002441568",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/amazon-linux-extras@2.0.1-1.amzn2?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7185962024745146.7286232151613902",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/apr@1.7.0-9.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.3238850769879801.13555911888847372",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/basesystem@10.0-7.amzn2.0.1?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.8350844574240295.3680514182879292",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/bash@4.2.46-34.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.3886335585529419.6029676317136128",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/bzip2-libs@1.0.6-13.amzn2.0.3?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.3213578852723644.7861943317152803",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/ca-certificates@2021.2.50-72.amzn2.0.3?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.04017172363328836.45179908602712704",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/chkconfig@1.7.4-1.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.040045966801285804.6293001875523885",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/coreutils@8.22-24.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.05185356185497836.917060474090231",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/cpio@2.11-28.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.8322970939919876.4331000843294345",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/curl@7.79.1-7.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.23807002293200563.9868919746283512",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/cyrus-sasl-lib@2.1.26-24.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.5801179764057991.6327417524508522",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/dejavu-fonts-common@2.33-6.amzn2?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.09866704979191587.8690098385921093",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/dejavu-sans-fonts@2.33-6.amzn2?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.4364513801699621.36087467971359843",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/diffutils@3.3-5.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.09903806608533405.30986253245987605",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/elfutils-libelf@0.176-2.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.9742281029229141.07204423882100153",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/expat@2.1.0-15.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6226264780538517.7695384947503637",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/file-libs@5.11-36.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.44317748199023443.8928978152134743",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/filesystem@3.2-25.amzn2.0.4?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7210869448205001.4801122036353507",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/findutils@4.5.11-6.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.9093988101519683.38823109566456615",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/fontconfig@2.13.0-4.3.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.807220003685917.6421732625544773",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/fontpackages-filesystem@1.44-8.amzn2?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7632890061668132.45648076984226305",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/freetype@2.8-14.amzn2.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.9738380893676445.34421206024331297",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/gawk@4.0.2-4.amzn2.1.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.471199974107128.10363937013704616",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/gdbm@1.13-6.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.4126546544212699.1437563884838594",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/glib2@2.56.1-9.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7141216647221552.4678041688189577",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/glibc-common@2.26-62.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.9304353418516629.6277592348044775",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/glibc-langpack-en@2.26-62.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.9304054010751537.7954739049883465",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/glibc-minimal-langpack@2.26-62.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.019266160225690943.8687678827718179",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/glibc@2.26-62.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.1737954485646822.8189288277480286",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/gmp@6.0.0-15.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.47231127306619025.7113997089736587",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/gnupg2@2.0.22-5.amzn2.0.5?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.1275972778547657.3754718745115072",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/gpg-pubkey@b04f24e3-5de94a19?arch=None&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6487698560051872.990876395754259",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/gpg-pubkey@c87f5b1a-593863f8?arch=None&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.09993431749761794.8930262842629098",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/gpgme@1.3.2-5.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.2787681939640426.595147284769463",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/grep@2.20-3.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.44848578846758824.15729035037757233",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/info@5.1-5.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.4039104283186622.8354960963949774",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/java-1.8.0-amazon-corretto-devel@1.8.0_352.b08-1?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.31041158358654375.8447112024497432",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/keyutils-libs@1.5.8-3.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.2945718768040355.08696129981495127",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/krb5-libs@1.15.1-37.amzn2.2.4?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.41095088630197973.9148146403818869",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libacl@2.2.51-14.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6307408305775718.3547814923593601",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libassuan@2.1.0-3.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.54874140951828.9662015957756112",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libattr@2.4.46-12.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6419036550211755.4496296858633987",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libblkid@2.30.2-2.amzn2.0.10?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.054789263490435.6794178898508624",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libcap@2.54-1.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6853864640830127.7444039488262334",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libcom_err@1.42.9-19.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.4131227584763121.38634567053852154",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libcrypt@2.26-62.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.985576547384302.4099962801066911",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libcurl@7.79.1-7.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.718577336861616.5590300650484576",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libdb-utils@5.3.21-24.amzn2.0.3?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.35867169153321554.1984467771187156",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libdb@5.3.21-24.amzn2.0.3?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.15904891649438824.8463389418750735",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libffi@3.0.13-18.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.8838975502498415.27701154196013966",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libgcc@7.3.1-15.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6176543920519654.48862263607487966",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libgcrypt@1.5.3-14.amzn2.0.3?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.028433405207625273.28760363130896804",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libgpg-error@1.12-3.amzn2.0.3?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.37019556275177135.387815622867527",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libidn2@2.3.0-1.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.47930828941767556.5963185885172011",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libmetalink@0.1.3-13.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.5669766693689747.975109417168539",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libmount@2.30.2-2.amzn2.0.10?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.16271858212983425.6073590500512392",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libnghttp2@1.41.0-1.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.06297983901914261.669670880050486",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libpng@1.5.13-8.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=2",
+      "type": "library",
+      "bom-ref": "BomRef.48342256043647824.024319745927886327",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libselinux@2.5-12.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.3894304345620786.8833063631447546",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libsepol@2.5-8.1.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.4565134870096751.02712900729060963",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libssh2@1.4.3-12.amzn2.2.3?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.5896582838838211.38545257701022295",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libstdc%2B%2B@7.3.1-15.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7513987851277624.10984351278208104",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libtasn1@4.10-1.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.3376855281529596.26234660163805545",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libunistring@0.9.3-9.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.12732401831021445.42157291442746947",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libuuid@2.30.2-2.amzn2.0.10?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.07618002874224927.8800861881334974",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libverto@0.2.5-4.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.06846588637035655.6072058385195439",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/libxml2@2.9.1-6.amzn2.5.6?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.10576367781188878.22066705619466442",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/lua@5.1.4-15.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7832715322568824.597214342120424",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/ncurses-base@6.0-8.20170212.amzn2.1.4?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.07139218671637104.13977398874610958",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/ncurses-libs@6.0-8.20170212.amzn2.1.4?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.3165135761654807.9008263795933918",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/ncurses@6.0-8.20170212.amzn2.1.4?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6674956039256045.17825586299140694",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/nspr@4.34.0-3.1.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.9770642309866544.9701398189838725",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/nss-pem@1.0.3-5.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.8957372584050285.21784227910168708",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/nss-softokn-freebl@3.79.0-4.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.2920715703126867.633550395996561",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/nss-softokn@3.79.0-4.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.9500781780411377.1581639235470894",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/nss-sysinit@3.79.0-4.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7064553298554053.0574896007630743",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/nss-tools@3.79.0-4.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.5843219616899737.897512573605288",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/nss-util@3.79.0-1.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.8828164331027122.29056604189497626",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/nss@3.79.0-4.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.9736312340898445.5193068964824432",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/openldap@2.4.44-23.amzn2.0.4?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6841659296565277.3540688676350606",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/openssl-libs@1.0.2k-24.amzn2.0.4?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.9172262998070695.031502174755253076",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/openssl11-libs@1.1.1g-12.amzn2.0.9?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.012588393337300219.0898479284372884",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/openssl11-pkcs11@0.4.10-6.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.2967640376323555.3093401319205157",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/p11-kit-trust@0.23.22-1.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7248504045577248.19034053088808978",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/p11-kit@0.23.22-1.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6135138312504148.17156312137494034",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/pcre@8.32-17.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.00887734626443315.5398261038261204",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/pinentry@0.8.1-17.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.05086790708384925.5468497374383547",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/popt@1.13-16.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.4234074825276274.057356084578314204",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/pth@2.0.7-23.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6984860977332418.5989804906008223",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/pygpgme@0.3-9.amzn2.0.3?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.01902714515452364.5857104221083548",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/pyliblzma@0.5.3-25.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.1618911106591444.808618225494714",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/python-iniparse@0.4-9.amzn2?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.852573623732788.5890015304049465",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/python-libs@2.7.18-1.amzn2.0.5?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.29866508454956964.9238622444033117",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/python-pycurl@7.19.0-19.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.272325438703205.9976687166412501",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/python-urlgrabber@3.10-9.amzn2.0.1?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7259563936091018.5002740945366467",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/python2-rpm@4.11.3-48.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.4345203783972549.1287334825495987",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/python@2.7.18-1.amzn2.0.5?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.07693077971411588.3257845724751237",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/pyxattr@0.5.1-5.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.0524652255833562.3906063469320412",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/readline@6.2-10.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.02668503595109817.2827981528919289",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/rpm-build-libs@4.11.3-48.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6998148660947285.80273511160058",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/rpm-libs@4.11.3-48.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.03618557369728059.25326621565000507",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/rpm@4.11.3-48.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.5045924352205962.8706582429601535",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/sed@4.2.2-5.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.4540233211704674.14483289554527035",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/setup@2.8.71-10.amzn2.0.1?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6604271963224486.5145402054891494",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/shared-mime-info@1.8-4.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.9244983210448259.34182638829773204",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/sqlite@3.7.17-8.amzn2.1.1?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.30551655905854336.7205516819148079",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/system-release@2-14.amzn2?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.5835177837252592.9456584966299137",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/tzdata@2022f-1.amzn2.0.1?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.15267705268876874.8123407235255395",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/vim-data@9.0.828-1.amzn2.0.1?arch=noarch&distro=amazon-2+%28Karoo%29&epoch=2",
+      "type": "library",
+      "bom-ref": "BomRef.3282703415422199.7771190148920897",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/vim-minimal@9.0.828-1.amzn2.0.1?arch=x86_64&distro=amazon-2+%28Karoo%29&epoch=2",
+      "type": "library",
+      "bom-ref": "BomRef.9792332719784185.727179527240267",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/xz-libs@5.2.2-1.amzn2.0.3?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.2859031608099726.36254158546307536",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/yum-metadata-parser@1.1.4-10.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.4827708881873428.7898320892742129",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/yum-plugin-ovl@1.1.31-46.amzn2.0.1?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.7636420528923064.6995551920770654",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/yum-plugin-priorities@1.1.31-46.amzn2.0.1?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.8942014100196921.37719539383543554",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/yum@3.4.3-158.amzn2.0.6?arch=noarch&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.6404203447704686.5997096948793658",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:rpm/amazon/zlib@1.2.7-19.amzn2.0.2?arch=x86_64&distro=amazon-2+%28Karoo%29",
+      "type": "library",
+      "bom-ref": "BomRef.42234875253744786.8749269301320916",
+      "version": "unknown"
+    },
+    {
+      "name": "popt",
+      "type": "library",
+      "bom-ref": "BomRef.6992009660438843.21403043197000393",
+      "version": "1.13-16.amzn2.0.2"
+    },
+    {
+      "name": "pth",
+      "type": "library",
+      "bom-ref": "BomRef.9197648909768268.6059574918859341",
+      "version": "2.0.7-23.amzn2.0.2"
+    },
+    {
+      "name": "pygpgme",
+      "type": "library",
+      "bom-ref": "BomRef.28254570243043553.2699127959161177",
+      "version": "0.3-9.amzn2.0.3"
+    },
+    {
+      "name": "pyliblzma",
+      "type": "library",
+      "bom-ref": "BomRef.3564110538740103.5574754300103854",
+      "version": "0.5.3-25.amzn2"
+    },
+    {
+      "name": "python",
+      "type": "library",
+      "bom-ref": "BomRef.4436287979856922.41135481192866596",
+      "version": "2.7.18-1.amzn2.0.5"
+    },
+    {
+      "name": "python-iniparse",
+      "type": "library",
+      "bom-ref": "BomRef.7730738736690317.2864483468185195",
+      "version": "0.4-9.amzn2"
+    },
+    {
+      "name": "python-libs",
+      "type": "library",
+      "bom-ref": "BomRef.2971527347578494.31002638554607886",
+      "version": "2.7.18-1.amzn2.0.5"
+    },
+    {
+      "name": "python-pycurl",
+      "type": "library",
+      "bom-ref": "BomRef.9593511200690573.36918556637104605",
+      "version": "7.19.0-19.amzn2.0.2"
+    },
+    {
+      "name": "python-urlgrabber",
+      "type": "library",
+      "bom-ref": "BomRef.44096381163774034.16498921476986683",
+      "version": "3.10-9.amzn2.0.1"
+    },
+    {
+      "name": "python2-rpm",
+      "type": "library",
+      "bom-ref": "BomRef.5194585659786173.19516338027185165",
+      "version": "4.11.3-48.amzn2.0.2"
+    },
+    {
+      "name": "pyxattr",
+      "type": "library",
+      "bom-ref": "BomRef.8338400217360715.34267364074616913",
+      "version": "0.5.1-5.amzn2.0.2"
+    },
+    {
+      "name": "readline",
+      "type": "library",
+      "bom-ref": "BomRef.53029321387844.5222012541689575",
+      "version": "6.2-10.amzn2.0.2"
+    },
+    {
+      "name": "rpm",
+      "type": "library",
+      "bom-ref": "BomRef.685479926375378.28402194937323555",
+      "version": "4.11.3-48.amzn2.0.2"
+    },
+    {
+      "name": "rpm-build-libs",
+      "type": "library",
+      "bom-ref": "BomRef.37948855743222243.9490478581646838",
+      "version": "4.11.3-48.amzn2.0.2"
+    },
+    {
+      "name": "rpm-libs",
+      "type": "library",
+      "bom-ref": "BomRef.9051624185917502.6880426507854441",
+      "version": "4.11.3-48.amzn2.0.2"
+    },
+    {
+      "name": "sed",
+      "type": "library",
+      "bom-ref": "BomRef.14229475293456673.4740897123518698",
+      "version": "4.2.2-5.amzn2.0.2"
+    },
+    {
+      "name": "setup",
+      "type": "library",
+      "bom-ref": "BomRef.7069134657172828.6140822112724565",
+      "version": "2.8.71-10.amzn2.0.1"
+    },
+    {
+      "name": "shared-mime-info",
+      "type": "library",
+      "bom-ref": "BomRef.2123184849404276.32201751679243684",
+      "version": "1.8-4.amzn2"
+    },
+    {
+      "name": "sqlite",
+      "type": "library",
+      "bom-ref": "BomRef.18210696012417948.2960145205943887",
+      "version": "3.7.17-8.amzn2.1.1"
+    },
+    {
+      "name": "system-release",
+      "type": "library",
+      "bom-ref": "BomRef.1039520533611561.4725459961871852",
+      "version": "1:2-14.amzn2"
+    },
+    {
+      "name": "taglibs-standard-impl",
+      "type": "library",
+      "bom-ref": "BomRef.2676967074787595.15720952916048414",
+      "version": "1.2.5"
+    },
+    {
+      "name": "taglibs-standard-spec",
+      "type": "library",
+      "bom-ref": "BomRef.2226732683812842.2955203384837284",
+      "version": "1.2.5"
+    },
+    {
+      "name": "tomcat-annotations-api",
+      "type": "library",
+      "bom-ref": "BomRef.29581884218510335.2672207953742711",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-api",
+      "type": "library",
+      "bom-ref": "BomRef.5916825664820994.9678921555508888",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-catalina",
+      "type": "library",
+      "bom-ref": "BomRef.3959408354029832.3577832656926976",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-catalina-ant",
+      "type": "library",
+      "bom-ref": "BomRef.5079841769597905.926188998423834",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-catalina-ha",
+      "type": "library",
+      "bom-ref": "BomRef.8364123871318392.1740557473671579",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-coyote",
+      "type": "library",
+      "bom-ref": "BomRef.5665841997057589.3479133818370931",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-dbcp",
+      "type": "library",
+      "bom-ref": "BomRef.02340924014986745.534681796634342",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-el-api",
+      "type": "library",
+      "bom-ref": "BomRef.3503833283910506.6032063778701512",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-cs",
+      "type": "library",
+      "bom-ref": "BomRef.7168928142793188.7029023025293045",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-de",
+      "type": "library",
+      "bom-ref": "BomRef.06148233805567971.5134112385697659",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-es",
+      "type": "library",
+      "bom-ref": "BomRef.9130713921765197.8959040660049",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-fr",
+      "type": "library",
+      "bom-ref": "BomRef.7778014806774765.7849889647914635",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-ja",
+      "type": "library",
+      "bom-ref": "BomRef.7911458754120773.37130065165575654",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-ko",
+      "type": "library",
+      "bom-ref": "BomRef.5466416383248778.0355890587790072",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-pt-BR",
+      "type": "library",
+      "bom-ref": "BomRef.20944634417835695.5601971556187431",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-ru",
+      "type": "library",
+      "bom-ref": "BomRef.4460611295453739.1393955011197232",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-i18n-zh-CN",
+      "type": "library",
+      "bom-ref": "BomRef.8787539350308513.5129396653657138",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-jasper",
+      "type": "library",
+      "bom-ref": "BomRef.8328150769679971.6406994526982065",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-jasper-el",
+      "type": "library",
+      "bom-ref": "BomRef.922203243954631.7581294222875654",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-jaspic-api",
+      "type": "library",
+      "bom-ref": "BomRef.8296019516018548.9497576883521253",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-jdbc",
+      "type": "library",
+      "bom-ref": "BomRef.5243829843207518.7179603467347824",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-jni",
+      "type": "library",
+      "bom-ref": "BomRef.013661363373666857.8138004162102854",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-jsp-api",
+      "type": "library",
+      "bom-ref": "BomRef.5211747199016388.5535631415315374",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-juli",
+      "type": "library",
+      "bom-ref": "BomRef.9836860155591604.4725784969158464",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-servlet-api",
+      "type": "library",
+      "bom-ref": "BomRef.7623755048875019.26439311696629986",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-ssi",
+      "type": "library",
+      "bom-ref": "BomRef.10389161374657929.2563627906808823",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-storeconfig",
+      "type": "library",
+      "bom-ref": "BomRef.72265542935925.2609382405465951",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-tribes",
+      "type": "library",
+      "bom-ref": "BomRef.6351433213693539.47420357750493103",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-util",
+      "type": "library",
+      "bom-ref": "BomRef.7296162615784068.12871563894712368",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-util-scan",
+      "type": "library",
+      "bom-ref": "BomRef.20419070672312623.6924263256786023",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-websocket",
+      "type": "library",
+      "bom-ref": "BomRef.44795577563113087.08216546138180192",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tomcat-websocket-api",
+      "type": "library",
+      "bom-ref": "BomRef.40331755314934015.5664597499002955",
+      "version": "9.0.70"
+    },
+    {
+      "name": "tzdata",
+      "type": "library",
+      "bom-ref": "BomRef.29930163335471993.6005338091857838",
+      "version": "2022f-1.amzn2.0.1"
+    },
+    {
+      "name": "vim-data",
+      "type": "library",
+      "bom-ref": "BomRef.8017146137477325.549404533628946",
+      "version": "2:9.0.828-1.amzn2.0.1"
+    },
+    {
+      "name": "vim-minimal",
+      "type": "library",
+      "bom-ref": "BomRef.4598912032668433.09707804391472374",
+      "version": "2:9.0.828-1.amzn2.0.1"
+    },
+    {
+      "name": "xz-libs",
+      "type": "library",
+      "bom-ref": "BomRef.48201527268859234.6545800129626393",
+      "version": "5.2.2-1.amzn2.0.3"
+    },
+    {
+      "name": "yum",
+      "type": "library",
+      "bom-ref": "BomRef.8680221139585126.14972574651759107",
+      "version": "3.4.3-158.amzn2.0.6"
+    },
+    {
+      "name": "yum-metadata-parser",
+      "type": "library",
+      "bom-ref": "BomRef.3627170788711588.657866388995258",
+      "version": "1.1.4-10.amzn2.0.2"
+    },
+    {
+      "name": "yum-plugin-ovl",
+      "type": "library",
+      "bom-ref": "BomRef.6230664556641293.9153184405672921",
+      "version": "1.1.31-46.amzn2.0.1"
+    },
+    {
+      "name": "yum-plugin-priorities",
+      "type": "library",
+      "bom-ref": "BomRef.945289398245626.7341102458800627",
+      "version": "1.1.31-46.amzn2.0.1"
+    },
+    {
+      "name": "zlib",
+      "type": "library",
+      "bom-ref": "BomRef.8140227752052687.9078927677369594",
+      "version": "1.2.7-19.amzn2.0.2"
+    }
+  ],
+  "specVersion": "1.6",
+  "dependencies": [
+    {
+      "ref": "BomRef.30946367052295254.02760943004582339"
+    },
+    {
+      "ref": "BomRef.0064604635974634395.06653055748436365"
+    },
+    {
+      "ref": "BomRef.9769356597543143.2602624730193116"
+    },
+    {
+      "ref": "BomRef.5752437655127464.28176362682669565"
+    },
+    {
+      "ref": "BomRef.592766067579767.04970944049285542"
+    },
+    {
+      "ref": "BomRef.12246011290967318.8013247094811019"
+    },
+    {
+      "ref": "BomRef.36768617415062166.5499990761820776"
+    },
+    {
+      "ref": "BomRef.940101924095534.16489705217338413"
+    },
+    {
+      "ref": "BomRef.07923615569880726.1440763797673268"
+    },
+    {
+      "ref": "BomRef.25751717444711675.252517774923417"
+    },
+    {
+      "ref": "BomRef.8719960629590019.2163349116654969"
+    },
+    {
+      "ref": "BomRef.9227973122682941.8673430978014977"
+    },
+    {
+      "ref": "BomRef.8422605661700804.9342824659463884"
+    },
+    {
+      "ref": "BomRef.08129372281348579.17381704983640334"
+    },
+    {
+      "ref": "BomRef.6260204512983508.18265031118254316"
+    },
+    {
+      "ref": "BomRef.40248682787291445.20093332441837297"
+    },
+    {
+      "ref": "BomRef.031702709853110855.8101680823179861"
+    },
+    {
+      "ref": "BomRef.8812855523505254.2246098137183612"
+    },
+    {
+      "ref": "BomRef.7939284195954944.8375966130372394"
+    },
+    {
+      "ref": "BomRef.7127007738937206.47375029533348745"
+    },
+    {
+      "ref": "BomRef.6491388059070706.28451260169559967"
+    },
+    {
+      "ref": "BomRef.7277296053269163.6871705189365442"
+    },
+    {
+      "ref": "BomRef.8079546009879496.6408074453950856"
+    },
+    {
+      "ref": "BomRef.6210457822101929.1032126977924156"
+    },
+    {
+      "ref": "BomRef.4876668422477395.7956397619256425"
+    },
+    {
+      "ref": "BomRef.17562616515481744.9346449312137302"
+    },
+    {
+      "ref": "BomRef.22865767177929286.7860902701752694"
+    },
+    {
+      "ref": "BomRef.2075983517889397.06783329015171058"
+    },
+    {
+      "ref": "BomRef.644730643662713.06726859122772988"
+    },
+    {
+      "ref": "BomRef.548969440330007.35912065341177946"
+    },
+    {
+      "ref": "BomRef.6073536875435952.2697016078721227"
+    },
+    {
+      "ref": "BomRef.9611557992933568.6635893340649525"
+    },
+    {
+      "ref": "BomRef.047785014405909654.1848229213960605"
+    },
+    {
+      "ref": "BomRef.07953611261445892.6483484646182526"
+    },
+    {
+      "ref": "BomRef.8005947302694686.2981262910831164"
+    },
+    {
+      "ref": "BomRef.22538648509626513.40855961724862266"
+    },
+    {
+      "ref": "BomRef.9822366602802647.4083278002441568"
+    },
+    {
+      "ref": "BomRef.7185962024745146.7286232151613902"
+    },
+    {
+      "ref": "BomRef.3238850769879801.13555911888847372"
+    },
+    {
+      "ref": "BomRef.8350844574240295.3680514182879292"
+    },
+    {
+      "ref": "BomRef.3886335585529419.6029676317136128"
+    },
+    {
+      "ref": "BomRef.3213578852723644.7861943317152803"
+    },
+    {
+      "ref": "BomRef.04017172363328836.45179908602712704"
+    },
+    {
+      "ref": "BomRef.040045966801285804.6293001875523885"
+    },
+    {
+      "ref": "BomRef.05185356185497836.917060474090231"
+    },
+    {
+      "ref": "BomRef.8322970939919876.4331000843294345"
+    },
+    {
+      "ref": "BomRef.23807002293200563.9868919746283512"
+    },
+    {
+      "ref": "BomRef.5801179764057991.6327417524508522"
+    },
+    {
+      "ref": "BomRef.09866704979191587.8690098385921093"
+    },
+    {
+      "ref": "BomRef.4364513801699621.36087467971359843"
+    },
+    {
+      "ref": "BomRef.09903806608533405.30986253245987605"
+    },
+    {
+      "ref": "BomRef.9742281029229141.07204423882100153"
+    },
+    {
+      "ref": "BomRef.6226264780538517.7695384947503637"
+    },
+    {
+      "ref": "BomRef.44317748199023443.8928978152134743"
+    },
+    {
+      "ref": "BomRef.7210869448205001.4801122036353507"
+    },
+    {
+      "ref": "BomRef.9093988101519683.38823109566456615"
+    },
+    {
+      "ref": "BomRef.807220003685917.6421732625544773"
+    },
+    {
+      "ref": "BomRef.7632890061668132.45648076984226305"
+    },
+    {
+      "ref": "BomRef.9738380893676445.34421206024331297"
+    },
+    {
+      "ref": "BomRef.471199974107128.10363937013704616"
+    },
+    {
+      "ref": "BomRef.4126546544212699.1437563884838594"
+    },
+    {
+      "ref": "BomRef.7141216647221552.4678041688189577"
+    },
+    {
+      "ref": "BomRef.9304353418516629.6277592348044775"
+    },
+    {
+      "ref": "BomRef.9304054010751537.7954739049883465"
+    },
+    {
+      "ref": "BomRef.019266160225690943.8687678827718179"
+    },
+    {
+      "ref": "BomRef.1737954485646822.8189288277480286"
+    },
+    {
+      "ref": "BomRef.47231127306619025.7113997089736587"
+    },
+    {
+      "ref": "BomRef.1275972778547657.3754718745115072"
+    },
+    {
+      "ref": "BomRef.6487698560051872.990876395754259"
+    },
+    {
+      "ref": "BomRef.09993431749761794.8930262842629098"
+    },
+    {
+      "ref": "BomRef.2787681939640426.595147284769463"
+    },
+    {
+      "ref": "BomRef.44848578846758824.15729035037757233"
+    },
+    {
+      "ref": "BomRef.4039104283186622.8354960963949774"
+    },
+    {
+      "ref": "BomRef.31041158358654375.8447112024497432"
+    },
+    {
+      "ref": "BomRef.2945718768040355.08696129981495127"
+    },
+    {
+      "ref": "BomRef.41095088630197973.9148146403818869"
+    },
+    {
+      "ref": "BomRef.6307408305775718.3547814923593601"
+    },
+    {
+      "ref": "BomRef.54874140951828.9662015957756112"
+    },
+    {
+      "ref": "BomRef.6419036550211755.4496296858633987"
+    },
+    {
+      "ref": "BomRef.054789263490435.6794178898508624"
+    },
+    {
+      "ref": "BomRef.6853864640830127.7444039488262334"
+    },
+    {
+      "ref": "BomRef.4131227584763121.38634567053852154"
+    },
+    {
+      "ref": "BomRef.985576547384302.4099962801066911"
+    },
+    {
+      "ref": "BomRef.718577336861616.5590300650484576"
+    },
+    {
+      "ref": "BomRef.35867169153321554.1984467771187156"
+    },
+    {
+      "ref": "BomRef.15904891649438824.8463389418750735"
+    },
+    {
+      "ref": "BomRef.8838975502498415.27701154196013966"
+    },
+    {
+      "ref": "BomRef.6176543920519654.48862263607487966"
+    },
+    {
+      "ref": "BomRef.028433405207625273.28760363130896804"
+    },
+    {
+      "ref": "BomRef.37019556275177135.387815622867527"
+    },
+    {
+      "ref": "BomRef.47930828941767556.5963185885172011"
+    },
+    {
+      "ref": "BomRef.5669766693689747.975109417168539"
+    },
+    {
+      "ref": "BomRef.16271858212983425.6073590500512392"
+    },
+    {
+      "ref": "BomRef.06297983901914261.669670880050486"
+    },
+    {
+      "ref": "BomRef.48342256043647824.024319745927886327"
+    },
+    {
+      "ref": "BomRef.3894304345620786.8833063631447546"
+    },
+    {
+      "ref": "BomRef.4565134870096751.02712900729060963"
+    },
+    {
+      "ref": "BomRef.5896582838838211.38545257701022295"
+    },
+    {
+      "ref": "BomRef.7513987851277624.10984351278208104"
+    },
+    {
+      "ref": "BomRef.3376855281529596.26234660163805545"
+    },
+    {
+      "ref": "BomRef.12732401831021445.42157291442746947"
+    },
+    {
+      "ref": "BomRef.07618002874224927.8800861881334974"
+    },
+    {
+      "ref": "BomRef.06846588637035655.6072058385195439"
+    },
+    {
+      "ref": "BomRef.10576367781188878.22066705619466442"
+    },
+    {
+      "ref": "BomRef.7832715322568824.597214342120424"
+    },
+    {
+      "ref": "BomRef.07139218671637104.13977398874610958"
+    },
+    {
+      "ref": "BomRef.3165135761654807.9008263795933918"
+    },
+    {
+      "ref": "BomRef.6674956039256045.17825586299140694"
+    },
+    {
+      "ref": "BomRef.9770642309866544.9701398189838725"
+    },
+    {
+      "ref": "BomRef.8957372584050285.21784227910168708"
+    },
+    {
+      "ref": "BomRef.2920715703126867.633550395996561"
+    },
+    {
+      "ref": "BomRef.9500781780411377.1581639235470894"
+    },
+    {
+      "ref": "BomRef.7064553298554053.0574896007630743"
+    },
+    {
+      "ref": "BomRef.5843219616899737.897512573605288"
+    },
+    {
+      "ref": "BomRef.8828164331027122.29056604189497626"
+    },
+    {
+      "ref": "BomRef.9736312340898445.5193068964824432"
+    },
+    {
+      "ref": "BomRef.6841659296565277.3540688676350606"
+    },
+    {
+      "ref": "BomRef.9172262998070695.031502174755253076"
+    },
+    {
+      "ref": "BomRef.012588393337300219.0898479284372884"
+    },
+    {
+      "ref": "BomRef.2967640376323555.3093401319205157"
+    },
+    {
+      "ref": "BomRef.7248504045577248.19034053088808978"
+    },
+    {
+      "ref": "BomRef.6135138312504148.17156312137494034"
+    },
+    {
+      "ref": "BomRef.00887734626443315.5398261038261204"
+    },
+    {
+      "ref": "BomRef.05086790708384925.5468497374383547"
+    },
+    {
+      "ref": "BomRef.4234074825276274.057356084578314204"
+    },
+    {
+      "ref": "BomRef.6984860977332418.5989804906008223"
+    },
+    {
+      "ref": "BomRef.01902714515452364.5857104221083548"
+    },
+    {
+      "ref": "BomRef.1618911106591444.808618225494714"
+    },
+    {
+      "ref": "BomRef.852573623732788.5890015304049465"
+    },
+    {
+      "ref": "BomRef.29866508454956964.9238622444033117"
+    },
+    {
+      "ref": "BomRef.272325438703205.9976687166412501"
+    },
+    {
+      "ref": "BomRef.7259563936091018.5002740945366467"
+    },
+    {
+      "ref": "BomRef.4345203783972549.1287334825495987"
+    },
+    {
+      "ref": "BomRef.07693077971411588.3257845724751237"
+    },
+    {
+      "ref": "BomRef.0524652255833562.3906063469320412"
+    },
+    {
+      "ref": "BomRef.02668503595109817.2827981528919289"
+    },
+    {
+      "ref": "BomRef.6998148660947285.80273511160058"
+    },
+    {
+      "ref": "BomRef.03618557369728059.25326621565000507"
+    },
+    {
+      "ref": "BomRef.5045924352205962.8706582429601535"
+    },
+    {
+      "ref": "BomRef.4540233211704674.14483289554527035"
+    },
+    {
+      "ref": "BomRef.6604271963224486.5145402054891494"
+    },
+    {
+      "ref": "BomRef.9244983210448259.34182638829773204"
+    },
+    {
+      "ref": "BomRef.30551655905854336.7205516819148079"
+    },
+    {
+      "ref": "BomRef.5835177837252592.9456584966299137"
+    },
+    {
+      "ref": "BomRef.15267705268876874.8123407235255395"
+    },
+    {
+      "ref": "BomRef.3282703415422199.7771190148920897"
+    },
+    {
+      "ref": "BomRef.9792332719784185.727179527240267"
+    },
+    {
+      "ref": "BomRef.2859031608099726.36254158546307536"
+    },
+    {
+      "ref": "BomRef.4827708881873428.7898320892742129"
+    },
+    {
+      "ref": "BomRef.7636420528923064.6995551920770654"
+    },
+    {
+      "ref": "BomRef.8942014100196921.37719539383543554"
+    },
+    {
+      "ref": "BomRef.6404203447704686.5997096948793658"
+    },
+    {
+      "ref": "BomRef.42234875253744786.8749269301320916"
+    },
+    {
+      "ref": "BomRef.8399106387427246.4180728000575009"
+    },
+    {
+      "ref": "BomRef.20643214907440088.36819443648477046"
+    },
+    {
+      "ref": "BomRef.8680557289608898.7232302801993081"
+    },
+    {
+      "ref": "BomRef.019100072902193288.14448464078716206"
+    },
+    {
+      "ref": "BomRef.8551583191139996.4220329720893766"
+    },
+    {
+      "ref": "BomRef.23334827313984396.13355726047805083"
+    },
+    {
+      "ref": "BomRef.6360765960101871.10578788117297344"
+    },
+    {
+      "ref": "BomRef.0553631859898428.826795715536907"
+    },
+    {
+      "ref": "BomRef.8398588368771167.00188125087201374"
+    },
+    {
+      "ref": "BomRef.8711376137969038.1905156126814903"
+    },
+    {
+      "ref": "BomRef.12122745143872826.5704123638227068"
+    },
+    {
+      "ref": "BomRef.8372541713481432.3010002097198635"
+    },
+    {
+      "ref": "BomRef.6831879365318835.3133854669746331"
+    },
+    {
+      "ref": "BomRef.17204571428870985.005213909605656486"
+    },
+    {
+      "ref": "BomRef.5957094816612973.328887324012493"
+    },
+    {
+      "ref": "BomRef.25896008158746897.27713337175278274"
+    },
+    {
+      "ref": "BomRef.4501948366391584.5536286826592773"
+    },
+    {
+      "ref": "BomRef.2297288004977187.011638078836994525"
+    },
+    {
+      "ref": "BomRef.6050594429395804.10677568222559153"
+    },
+    {
+      "ref": "BomRef.5731986545200007.8361601374113433"
+    },
+    {
+      "ref": "BomRef.21221089000338111.45945856789372597"
+    },
+    {
+      "ref": "BomRef.7457442498776237.2695058793042856"
+    },
+    {
+      "ref": "BomRef.4963944758988509.7435678629787129"
+    },
+    {
+      "ref": "BomRef.05614685166863864.3429273032385687"
+    },
+    {
+      "ref": "BomRef.7977787253546748.623723087881145"
+    },
+    {
+      "ref": "BomRef.0973989164914344.7625724660764486"
+    },
+    {
+      "ref": "BomRef.31995074088823594.3543207264583197"
+    },
+    {
+      "ref": "BomRef.0057894610906981114.40930714371655486"
+    },
+    {
+      "ref": "BomRef.12879186193871384.20114842477460837"
+    },
+    {
+      "ref": "BomRef.5447858052625008.6775303527232805"
+    },
+    {
+      "ref": "BomRef.7747847652569814.4723722919718075"
+    },
+    {
+      "ref": "BomRef.4635000853616974.20529371515205141"
+    },
+    {
+      "ref": "BomRef.5333102505687118.1952115131574782"
+    },
+    {
+      "ref": "BomRef.4646383907830097.04282038861634707"
+    },
+    {
+      "ref": "BomRef.3443451595149205.6142144213193045"
+    },
+    {
+      "ref": "BomRef.9191658402591578.3535891242370698"
+    },
+    {
+      "ref": "BomRef.6605524828420142.8053706404162866"
+    },
+    {
+      "ref": "BomRef.28384737292848106.853076136371394"
+    },
+    {
+      "ref": "BomRef.32896266783739236.13011537298467135"
+    },
+    {
+      "ref": "BomRef.03253784878580912.15586108634515994"
+    },
+    {
+      "ref": "BomRef.007090810874850306.9307699769676155"
+    },
+    {
+      "ref": "BomRef.7727559676569278.7443872054326701"
+    },
+    {
+      "ref": "BomRef.05517490035849604.30578658650945534"
+    },
+    {
+      "ref": "BomRef.22916835268908853.7420813213696899"
+    },
+    {
+      "ref": "BomRef.6842439331149384.1739976967333614"
+    },
+    {
+      "ref": "BomRef.4520125678589998.48486317161705594"
+    },
+    {
+      "ref": "BomRef.4415206145689513.7033109965871623"
+    },
+    {
+      "ref": "BomRef.6862864587148013.6226022370688303"
+    },
+    {
+      "ref": "BomRef.5407861117238569.3253233481632073"
+    },
+    {
+      "ref": "BomRef.7652045180396125.8347036382796853"
+    },
+    {
+      "ref": "BomRef.07537674198087196.42935345775202827"
+    },
+    {
+      "ref": "BomRef.3053593213166248.06597274153640664"
+    },
+    {
+      "ref": "BomRef.41031484698381626.548682988931126"
+    },
+    {
+      "ref": "BomRef.5575568065911736.5445536148956273"
+    },
+    {
+      "ref": "BomRef.21110438419226285.989870874788607"
+    },
+    {
+      "ref": "BomRef.9600078337653356.6037594503343746"
+    },
+    {
+      "ref": "BomRef.057526697095876655.8981799091828114"
+    },
+    {
+      "ref": "BomRef.867021386650678.9468759202270249"
+    },
+    {
+      "ref": "BomRef.7636773990349821.7263282931032452"
+    },
+    {
+      "ref": "BomRef.4423821870079808.36389524289353803"
+    },
+    {
+      "ref": "BomRef.949894418653304.7034218230929886"
+    },
+    {
+      "ref": "BomRef.08358375279109198.9219639523048153"
+    },
+    {
+      "ref": "BomRef.5085811171523488.5698360096608948"
+    },
+    {
+      "ref": "BomRef.7692037241196361.0258601716596476"
+    },
+    {
+      "ref": "BomRef.26931792517573105.44872668096928015"
+    },
+    {
+      "ref": "BomRef.2885806802853962.9600410090427293"
+    },
+    {
+      "ref": "BomRef.31546725446419777.5245521031716506"
+    },
+    {
+      "ref": "BomRef.9406504798500243.46208087051597724"
+    },
+    {
+      "ref": "BomRef.24252978911608436.5522610427890884"
+    },
+    {
+      "ref": "BomRef.726034571745371.050808204377906785"
+    },
+    {
+      "ref": "BomRef.4734438347046075.22316846451785832"
+    },
+    {
+      "ref": "BomRef.756696931558389.393727719389529"
+    },
+    {
+      "ref": "BomRef.49663027783432145.215786819976145e-06"
+    },
+    {
+      "ref": "BomRef.960086345924749.15335544814673907"
+    },
+    {
+      "ref": "BomRef.050747766728676424.9819300826757815"
+    },
+    {
+      "ref": "BomRef.11478180105400493.5925131008248826"
+    },
+    {
+      "ref": "BomRef.423634258759239.8995607042404552"
+    },
+    {
+      "ref": "BomRef.9461658039504953.3635294219030508"
+    },
+    {
+      "ref": "BomRef.45781540763385464.025529950687360636"
+    },
+    {
+      "ref": "BomRef.3269815700973092.19297522028853498"
+    },
+    {
+      "ref": "BomRef.10798221003246944.2688625470461048"
+    },
+    {
+      "ref": "BomRef.7528425834323262.529567613641813"
+    },
+    {
+      "ref": "BomRef.27110601654508115.6160976423435727"
+    },
+    {
+      "ref": "BomRef.06843698633003226.7192699749672967"
+    },
+    {
+      "ref": "BomRef.4197572966190446.175389807292056"
+    },
+    {
+      "ref": "BomRef.8306770805596349.7360372222942451"
+    },
+    {
+      "ref": "BomRef.9565611636276463.38067369079363433"
+    },
+    {
+      "ref": "BomRef.6835352795026761.6314945016700372"
+    },
+    {
+      "ref": "BomRef.918191772683259.47900358905386775"
+    },
+    {
+      "ref": "BomRef.6992009660438843.21403043197000393"
+    },
+    {
+      "ref": "BomRef.9197648909768268.6059574918859341"
+    },
+    {
+      "ref": "BomRef.28254570243043553.2699127959161177"
+    },
+    {
+      "ref": "BomRef.3564110538740103.5574754300103854"
+    },
+    {
+      "ref": "BomRef.4436287979856922.41135481192866596"
+    },
+    {
+      "ref": "BomRef.7730738736690317.2864483468185195"
+    },
+    {
+      "ref": "BomRef.2971527347578494.31002638554607886"
+    },
+    {
+      "ref": "BomRef.9593511200690573.36918556637104605"
+    },
+    {
+      "ref": "BomRef.44096381163774034.16498921476986683"
+    },
+    {
+      "ref": "BomRef.5194585659786173.19516338027185165"
+    },
+    {
+      "ref": "BomRef.8338400217360715.34267364074616913"
+    },
+    {
+      "ref": "BomRef.53029321387844.5222012541689575"
+    },
+    {
+      "ref": "BomRef.685479926375378.28402194937323555"
+    },
+    {
+      "ref": "BomRef.37948855743222243.9490478581646838"
+    },
+    {
+      "ref": "BomRef.9051624185917502.6880426507854441"
+    },
+    {
+      "ref": "BomRef.14229475293456673.4740897123518698"
+    },
+    {
+      "ref": "BomRef.7069134657172828.6140822112724565"
+    },
+    {
+      "ref": "BomRef.2123184849404276.32201751679243684"
+    },
+    {
+      "ref": "BomRef.18210696012417948.2960145205943887"
+    },
+    {
+      "ref": "BomRef.1039520533611561.4725459961871852"
+    },
+    {
+      "ref": "BomRef.2676967074787595.15720952916048414"
+    },
+    {
+      "ref": "BomRef.2226732683812842.2955203384837284"
+    },
+    {
+      "ref": "BomRef.29581884218510335.2672207953742711"
+    },
+    {
+      "ref": "BomRef.5916825664820994.9678921555508888"
+    },
+    {
+      "ref": "BomRef.3959408354029832.3577832656926976"
+    },
+    {
+      "ref": "BomRef.5079841769597905.926188998423834"
+    },
+    {
+      "ref": "BomRef.8364123871318392.1740557473671579"
+    },
+    {
+      "ref": "BomRef.5665841997057589.3479133818370931"
+    },
+    {
+      "ref": "BomRef.02340924014986745.534681796634342"
+    },
+    {
+      "ref": "BomRef.3503833283910506.6032063778701512"
+    },
+    {
+      "ref": "BomRef.7168928142793188.7029023025293045"
+    },
+    {
+      "ref": "BomRef.06148233805567971.5134112385697659"
+    },
+    {
+      "ref": "BomRef.9130713921765197.8959040660049"
+    },
+    {
+      "ref": "BomRef.7778014806774765.7849889647914635"
+    },
+    {
+      "ref": "BomRef.7911458754120773.37130065165575654"
+    },
+    {
+      "ref": "BomRef.5466416383248778.0355890587790072"
+    },
+    {
+      "ref": "BomRef.20944634417835695.5601971556187431"
+    },
+    {
+      "ref": "BomRef.4460611295453739.1393955011197232"
+    },
+    {
+      "ref": "BomRef.8787539350308513.5129396653657138"
+    },
+    {
+      "ref": "BomRef.8328150769679971.6406994526982065"
+    },
+    {
+      "ref": "BomRef.922203243954631.7581294222875654"
+    },
+    {
+      "ref": "BomRef.8296019516018548.9497576883521253"
+    },
+    {
+      "ref": "BomRef.5243829843207518.7179603467347824"
+    },
+    {
+      "ref": "BomRef.013661363373666857.8138004162102854"
+    },
+    {
+      "ref": "BomRef.5211747199016388.5535631415315374"
+    },
+    {
+      "ref": "BomRef.9836860155591604.4725784969158464"
+    },
+    {
+      "ref": "BomRef.7623755048875019.26439311696629986"
+    },
+    {
+      "ref": "BomRef.10389161374657929.2563627906808823"
+    },
+    {
+      "ref": "BomRef.72265542935925.2609382405465951"
+    },
+    {
+      "ref": "BomRef.6351433213693539.47420357750493103"
+    },
+    {
+      "ref": "BomRef.7296162615784068.12871563894712368"
+    },
+    {
+      "ref": "BomRef.20419070672312623.6924263256786023"
+    },
+    {
+      "ref": "BomRef.44795577563113087.08216546138180192"
+    },
+    {
+      "ref": "BomRef.40331755314934015.5664597499002955"
+    },
+    {
+      "ref": "BomRef.29930163335471993.6005338091857838"
+    },
+    {
+      "ref": "BomRef.8017146137477325.549404533628946"
+    },
+    {
+      "ref": "BomRef.4598912032668433.09707804391472374"
+    },
+    {
+      "ref": "BomRef.48201527268859234.6545800129626393"
+    },
+    {
+      "ref": "BomRef.8680221139585126.14972574651759107"
+    },
+    {
+      "ref": "BomRef.3627170788711588.657866388995258"
+    },
+    {
+      "ref": "BomRef.6230664556641293.9153184405672921"
+    },
+    {
+      "ref": "BomRef.945289398245626.7341102458800627"
+    },
+    {
+      "ref": "BomRef.8140227752052687.9078927677369594"
+    },
+    {
+      "ref": "pkg:oci/tomcat@9.0.70-jdk8-corretto?digest=sha256:93d42e4f4a441739bea9361d59917263d65d4d9b3c0e946b4ccd3ce939812f9c",
+      "dependsOn": [
+        "BomRef.5045924352205962.8706582429601535",
+        "BomRef.05086790708384925.5468497374383547",
+        "BomRef.3213578852723644.7861943317152803",
+        "BomRef.471199974107128.10363937013704616",
+        "BomRef.4876668422477395.7956397619256425",
+        "BomRef.6674956039256045.17825586299140694",
+        "BomRef.2967640376323555.3093401319205157",
+        "BomRef.4345203783972549.1287334825495987",
+        "BomRef.8942014100196921.37719539383543554",
+        "BomRef.4126546544212699.1437563884838594",
+        "BomRef.09866704979191587.8690098385921093",
+        "BomRef.08129372281348579.17381704983640334",
+        "BomRef.2075983517889397.06783329015171058",
+        "BomRef.01902714515452364.5857104221083548",
+        "BomRef.7513987851277624.10984351278208104",
+        "BomRef.807220003685917.6421732625544773",
+        "BomRef.36768617415062166.5499990761820776",
+        "BomRef.37019556275177135.387815622867527",
+        "BomRef.2920715703126867.633550395996561",
+        "BomRef.6226264780538517.7695384947503637",
+        "BomRef.6419036550211755.4496296858633987",
+        "BomRef.9792332719784185.727179527240267",
+        "BomRef.8957372584050285.21784227910168708",
+        "BomRef.04017172363328836.45179908602712704",
+        "BomRef.5669766693689747.975109417168539",
+        "BomRef.29866508454956964.9238622444033117",
+        "BomRef.3282703415422199.7771190148920897",
+        "BomRef.3165135761654807.9008263795933918",
+        "BomRef.7277296053269163.6871705189365442",
+        "BomRef.0524652255833562.3906063469320412",
+        "BomRef.40248682787291445.20093332441837297",
+        "BomRef.9742281029229141.07204423882100153",
+        "BomRef.9244983210448259.34182638829773204",
+        "BomRef.15267705268876874.8123407235255395",
+        "BomRef.07953611261445892.6483484646182526",
+        "BomRef.9304353418516629.6277592348044775",
+        "BomRef.8422605661700804.9342824659463884",
+        "BomRef.09903806608533405.30986253245987605",
+        "BomRef.592766067579767.04970944049285542",
+        "BomRef.012588393337300219.0898479284372884",
+        "BomRef.02668503595109817.2827981528919289",
+        "BomRef.44317748199023443.8928978152134743",
+        "BomRef.718577336861616.5590300650484576",
+        "BomRef.6487698560051872.990876395754259",
+        "BomRef.5896582838838211.38545257701022295",
+        "BomRef.8838975502498415.27701154196013966",
+        "BomRef.054789263490435.6794178898508624",
+        "BomRef.1618911106591444.808618225494714",
+        "BomRef.9611557992933568.6635893340649525",
+        "BomRef.6073536875435952.2697016078721227",
+        "BomRef.9304054010751537.7954739049883465",
+        "BomRef.0064604635974634395.06653055748436365",
+        "BomRef.31041158358654375.8447112024497432",
+        "BomRef.8322970939919876.4331000843294345",
+        "BomRef.22538648509626513.40855961724862266",
+        "BomRef.6176543920519654.48862263607487966",
+        "BomRef.10576367781188878.22066705619466442",
+        "BomRef.940101924095534.16489705217338413",
+        "BomRef.16271858212983425.6073590500512392",
+        "BomRef.30551655905854336.7205516819148079",
+        "BomRef.7636420528923064.6995551920770654",
+        "BomRef.2945718768040355.08696129981495127",
+        "BomRef.3238850769879801.13555911888847372",
+        "BomRef.25751717444711675.252517774923417",
+        "BomRef.05185356185497836.917060474090231",
+        "BomRef.5752437655127464.28176362682669565",
+        "BomRef.54874140951828.9662015957756112",
+        "BomRef.6404203447704686.5997096948793658",
+        "BomRef.7832715322568824.597214342120424",
+        "BomRef.15904891649438824.8463389418750735",
+        "BomRef.9738380893676445.34421206024331297",
+        "BomRef.47930828941767556.5963185885172011",
+        "BomRef.5801179764057991.6327417524508522",
+        "BomRef.985576547384302.4099962801066911",
+        "BomRef.9769356597543143.2602624730193116",
+        "BomRef.4565134870096751.02712900729060963",
+        "BomRef.1737954485646822.8189288277480286",
+        "BomRef.4827708881873428.7898320892742129",
+        "BomRef.1275972778547657.3754718745115072",
+        "BomRef.548969440330007.35912065341177946",
+        "BomRef.4234074825276274.057356084578314204",
+        "BomRef.17562616515481744.9346449312137302",
+        "BomRef.852573623732788.5890015304049465",
+        "BomRef.644730643662713.06726859122772988",
+        "BomRef.272325438703205.9976687166412501",
+        "BomRef.47231127306619025.7113997089736587",
+        "BomRef.9736312340898445.5193068964824432",
+        "BomRef.4039104283186622.8354960963949774",
+        "BomRef.5835177837252592.9456584966299137",
+        "BomRef.03618557369728059.25326621565000507",
+        "BomRef.8812855523505254.2246098137183612",
+        "BomRef.028433405207625273.28760363130896804",
+        "BomRef.22865767177929286.7860902701752694",
+        "BomRef.7210869448205001.4801122036353507",
+        "BomRef.7248504045577248.19034053088808978",
+        "BomRef.9093988101519683.38823109566456615",
+        "BomRef.06846588637035655.6072058385195439",
+        "BomRef.6307408305775718.3547814923593601",
+        "BomRef.4364513801699621.36087467971359843",
+        "BomRef.06297983901914261.669670880050486",
+        "BomRef.2859031608099726.36254158546307536",
+        "BomRef.44848578846758824.15729035037757233",
+        "BomRef.7259563936091018.5002740945366467",
+        "BomRef.30946367052295254.02760943004582339",
+        "BomRef.040045966801285804.6293001875523885",
+        "BomRef.6135138312504148.17156312137494034",
+        "BomRef.8350844574240295.3680514182879292",
+        "BomRef.8828164331027122.29056604189497626",
+        "BomRef.5843219616899737.897512573605288",
+        "BomRef.42234875253744786.8749269301320916",
+        "BomRef.09993431749761794.8930262842629098",
+        "BomRef.9227973122682941.8673430978014977",
+        "BomRef.7141216647221552.4678041688189577",
+        "BomRef.6998148660947285.80273511160058",
+        "BomRef.4540233211704674.14483289554527035",
+        "BomRef.41095088630197973.9148146403818869",
+        "BomRef.7632890061668132.45648076984226305",
+        "BomRef.3886335585529419.6029676317136128",
+        "BomRef.6853864640830127.7444039488262334",
+        "BomRef.047785014405909654.1848229213960605",
+        "BomRef.6604271963224486.5145402054891494",
+        "BomRef.9500781780411377.1581639235470894",
+        "BomRef.3894304345620786.8833063631447546",
+        "BomRef.7185962024745146.7286232151613902",
+        "BomRef.4131227584763121.38634567053852154",
+        "BomRef.12246011290967318.8013247094811019",
+        "BomRef.07923615569880726.1440763797673268",
+        "BomRef.48342256043647824.024319745927886327",
+        "BomRef.6260204512983508.18265031118254316",
+        "BomRef.031702709853110855.8101680823179861",
+        "BomRef.9172262998070695.031502174755253076",
+        "BomRef.8079546009879496.6408074453950856",
+        "BomRef.9822366602802647.4083278002441568",
+        "BomRef.019266160225690943.8687678827718179",
+        "BomRef.35867169153321554.1984467771187156",
+        "BomRef.3376855281529596.26234660163805545",
+        "BomRef.8005947302694686.2981262910831164",
+        "BomRef.07139218671637104.13977398874610958",
+        "BomRef.9770642309866544.9701398189838725",
+        "BomRef.6984860977332418.5989804906008223",
+        "BomRef.8719960629590019.2163349116654969",
+        "BomRef.7127007738937206.47375029533348745",
+        "BomRef.00887734626443315.5398261038261204",
+        "BomRef.7064553298554053.0574896007630743",
+        "BomRef.2787681939640426.595147284769463",
+        "BomRef.6491388059070706.28451260169559967",
+        "BomRef.07693077971411588.3257845724751237",
+        "BomRef.6841659296565277.3540688676350606",
+        "BomRef.07618002874224927.8800861881334974",
+        "BomRef.6210457822101929.1032126977924156",
+        "BomRef.12732401831021445.42157291442746947",
+        "BomRef.7939284195954944.8375966130372394",
+        "BomRef.23807002293200563.9868919746283512"
+      ]
+    }
+  ],
+  "serialNumber": "urn:uuid:9b5ba847-018d-461b-aa2e-b4e5ce73fd60"
+}
